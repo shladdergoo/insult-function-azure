@@ -20,3 +20,7 @@ steps:
 - script: |
     npm run test-ci
   displayName: 'npm test'
+
+- task: PublishTestResults@1
+  inputs:
+    testResultsFiles: 'dist/__tests__/test-results.xml"'
