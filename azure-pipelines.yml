@@ -23,4 +23,4 @@ steps:
 
 - task: PublishTestResults@1
   inputs:
-    testResultsFiles: 'dist/__tests__/test-results.xml"'
+    testResultsFiles: 'dist/__tests__/test-results.xml'
