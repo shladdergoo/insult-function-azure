@@ -9,5 +9,8 @@
     "bin": true,
     "node_modules": true
   },
-  "debug.internalConsoleOptions": "neverOpen"
+  "debug.internalConsoleOptions": "neverOpen",
+  "files.associations": {
+    "**/azure-pipelines.yml": "azure-pipelines"
+  }
 }
