@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "reflect-metadata",
+      "node"
+    ],
+    "sourceMap": true,
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "src/**/*",
+    "__tests__/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
