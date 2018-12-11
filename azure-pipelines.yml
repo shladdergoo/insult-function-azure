@@ -29,6 +29,7 @@ steps:
     Contents: |
      **/*.js
      **/*.json
+     !**/local.settings.json
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
 - task: ArchiveFiles@2
