@@ -11,95 +11,95 @@ const expect = chai.expect;
 
 const testDataWith2 = [
   {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'foo',
+    degreeOfProfanity: 2,
+    language: 'en',
+    phrase: 'Thou artless base-court apple-john',
   },
   {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'bar',
+    degreeOfProfanity: 2,
+    language: 'en',
+    phrase: 'Ye weedy rough-hewn baggage',
   },
 ];
 
 const testDataWith5 = [
   {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'foo',
+    degreeOfProfanity: 2,
+    language: 'en',
+    phrase: 'Forsooth! Thou art a pauncy rug-headed manikin',
   },
   {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'bar',
+    degreeOfProfanity: 3,
+    language: 'en',
+    phrase: 'Verily, ye be a mewling hedge-born malignancy',
   },
   {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'bundy',
+    degreeOfProfanity: 3,
+    language: 'en',
+    phrase: "S'wounds thou art a lewd ill-breeding flap-dragon",
   },
   {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'this',
+    degreeOfProfanity: 2,
+    language: 'en',
+    phrase: 'Ye mammering ill-nurtured whipster',
   },
   {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'really',
+    degreeOfProfanity: 3,
+    language: 'en',
+    phrase: 'Thou art truly a surly clapper-clawed giglet',
   },
 ];
 
 const testDataWith10 = [
   {
     degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'foo',
+    language: 'en',
+    phrase: 'Ye vain base-court bladder',
+  },
+  {
+    degreeOfProfanity: 2,
+    language: 'en',
+    phrase: 'Veriliy, ye be a dankish bat-fowling malt-worm',
+  },
+  {
+    degreeOfProfanity: 2,
+    language: 'en',
+    phrase: 'Thou art a greasy eye-offending moldwarp',
   },
   {
     degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'bar',
+    language: 'en',
+    phrase: 'Thou roynish beetle-headed barnacle',
+  },
+  {
+    degreeOfProfanity: 3,
+    language: 'en',
+    phrase: 'Ye craven reeling-ripe puttock',
+  },
+  {
+    degreeOfProfanity: 2,
+    language: 'en',
+    phrase: 'Verily, ye be a sottish full-gorged varlot',
   },
   {
     degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'bundy',
+    language: 'en',
+    phrase: 'Veriliy, thou art naught but a warped hasty-witted coxcomb',
+  },
+  {
+    degreeOfProfanity: 2,
+    language: 'en',
+    phrase: 'Thou be a villainous swag-bellied waterfly',
   },
   {
     degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'this',
+    language: 'en',
+    phrase: "Thou cans't not be but a surly knotty-pated egg-shell",
   },
   {
     degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'really',
-  },
-  {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'is',
-  },
-  {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'tedious',
-  },
-  {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'oh',
-  },
-  {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'yes',
-  },
-  {
-    degreeOfProfanity: 1,
-    language: 'en-GB',
-    phrase: 'indeed',
+    language: 'en',
+    phrase: 'Thou brazen fen-sucked bum-bailey',
   },
 ];
 
