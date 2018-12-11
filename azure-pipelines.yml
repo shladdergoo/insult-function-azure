@@ -37,9 +37,9 @@ steps:
   inputs:
     rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
     includeRootFolder: false
-    archiveFile: '$(Build.ArtifactStagingDirectory)/node-insult_$(Build.BuildNumber).zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/insult-function_$(Build.BuildNumber).zip'
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish artifacts: drop'
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/node-insult_$(Build.BuildNumber).zip'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/insult-function_$(Build.BuildNumber).zip'
