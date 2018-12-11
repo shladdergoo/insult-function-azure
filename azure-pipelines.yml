@@ -21,3 +21,24 @@ steps:
 - task: PublishTestResults@1
   inputs:
     testResultsFiles: 'dist/__tests__/test-results.xml'
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
+  inputs:
+    SourceFolder: '$(System.DefaultWorkingDirectory)/dist/src'
+    Contents: |
+     '**/*.js'
+     '**/*.json'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: ArchiveFiles@2
+  displayName: 'Archive files'
+  inputs:
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
+    includeRootFolder: false
+    archiveFile: '$(Build.ArtifactStagingDirectory)/node-insult_$(Build.BuildNumber).zip'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish artifacts: drop'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/node-insult_$(Build.BuildNumber).zip'
