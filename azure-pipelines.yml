@@ -23,12 +23,12 @@ steps:
     testResultsFiles: 'dist/__tests__/test-results.xml'
 
 - task: CopyFiles@2
-  displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
+  displayName: 'Copy dist files'
   inputs:
-    SourceFolder: '$(System.DefaultWorkingDirectory)/dist/src'
+    SourceFolder: 'dist/src'
     Contents: |
-     '**/*.js'
-     '**/*.json'
+     **/*.js
+     **/*.json
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
 - task: ArchiveFiles@2
