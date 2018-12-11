@@ -20,7 +20,7 @@
     "test-ci": "mocha dist/__tests__/**/*-spec.js --reporter mocha-multi-reporters --reporter-options configFile=__tests__/reporter-config.json"
   },
   "author": "",
-  "license": "Apache License, Version 2.0",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
