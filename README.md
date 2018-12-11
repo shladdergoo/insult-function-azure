@@ -8,7 +8,7 @@ CD Deployment (Staging) [![Deployment Status](https://hcc-devops.vsrm.visualstud
 
 Urls:
 Staging - https://insults-staging.azurewebsites.net/api/insultHttpTrigger
-Production - 
+Production - https://insults.azurewebsites.net/api/insultHttpTrigger
 
 
 Thanks to http://www.renfaire.com/Language/insults.html
