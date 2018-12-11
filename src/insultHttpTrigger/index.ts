@@ -6,8 +6,10 @@ import IInsultService from './interface/iinsultservice';
 import Types from './types';
 
 export const index = (context: any, req: any) => {
+  const versionKey = 'Version';
+  const version = process.env[versionKey];
   context.log(
-    `insultHttpTrigger function processed a request. RequestUri=${
+    `insultHttpTrigger (${version}) function processed a request. RequestUri=${
       req.originalUrl
     }`
   );

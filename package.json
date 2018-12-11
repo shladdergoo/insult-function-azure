@@ -14,7 +14,7 @@
     "prepublishOnly": "npm run build",
     "prebuild": "npm run clean && npm run format && npm run lint && echo Using TypeScript && tsc --version",
     "build": "tsc --pretty",
-    "postbuild": "copyfiles -u 1 src/**/function.json src/**/data.json dist/src && copyfiles package.json host.json dist/src",
+    "postbuild": "copyfiles -u 1 src/**/function.json src/**/data.json dist/src && copyfiles package.json host.json local.settings.json dist/src",
     "pretest": "npm run build",
     "test": "mocha dist/__tests__/**/*-spec.js --reporter mocha-multi-reporters --reporter-options configFile=__tests__/reporter-config.json",
     "test-ci": "mocha dist/__tests__/**/*-spec.js --reporter mocha-multi-reporters --reporter-options configFile=__tests__/reporter-config.json"
