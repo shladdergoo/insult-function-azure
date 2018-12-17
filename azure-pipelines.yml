@@ -1,7 +1,7 @@
 name: 1.0$(rev:.r)
 
 pool:
-  vmImage: 'Ubuntu 16.04'
+  name: 'default'
 
 steps:
 - task: NodeTool@0
