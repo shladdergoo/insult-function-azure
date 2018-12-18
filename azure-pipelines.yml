@@ -23,13 +23,13 @@ steps:
 
     customCommand: 'run build'
 
-- script: |
-    npm run test-ci
-  displayName: 'npm test'
+# - script: |
+#     npm run test-ci
+#   displayName: 'npm test'
 
-- task: PublishTestResults@1
-  inputs:
-    testResultsFiles: 'dist/__tests__/test-results.xml'
+# - task: PublishTestResults@1
+#   inputs:
+#     testResultsFiles: 'dist/__tests__/test-results.xml'
 
 - task: CopyFiles@2
   displayName: 'Copy dist files'
