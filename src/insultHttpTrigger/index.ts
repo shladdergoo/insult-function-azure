@@ -2,8 +2,7 @@ import 'reflect-metadata';
 
 import container from './inversify.config';
 
-import IInsultService from './interface/iinsultservice';
-import Types from './types';
+import { IInsultService, Types } from 'node-insult';
 
 export const index = (context: any, req: any) => {
   const versionKey = 'Version';

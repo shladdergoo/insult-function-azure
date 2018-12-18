@@ -1,13 +1,12 @@
 import { Container } from 'inversify';
 
-import IInsultRepository from './interface/iinsultrepository';
-import IInsultService from './interface/iinsultservice';
-
-import InsultRepository from './repository/insultrepository';
-
-import InsultService from './service/insultservice';
-
-import Types from './types';
+import {
+  IInsultRepository,
+  IInsultService,
+  InsultRepository,
+  InsultService,
+  Types,
+} from 'node-insult';
 
 const container = new Container();
 
