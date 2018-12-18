@@ -4,7 +4,7 @@ import container from './inversify.config';
 
 import { IInsultService, Types } from 'node-insult';
 
-export const index = (context: any, req: any) => {
+export function index(context: any, req: any) {
   const versionKey = 'Version';
   const version = process.env[versionKey];
   context.log(
@@ -22,4 +22,4 @@ export const index = (context: any, req: any) => {
     body: insults,
   };
   context.done();
-};
+}
