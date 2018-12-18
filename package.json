@@ -1,10 +1,10 @@
 {
-  "name": "insult-function",
+  "name": "insult-function-azure",
   "version": "1.0.0",
   "description": "A port of the famous node-insult insult generator service to Azure Functions",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shladdergoo/insult-function"
+    "url": "https://github.com/shladdergoo/insult-function-azure"
   },
   "main": "index.js",
   "scripts": {
