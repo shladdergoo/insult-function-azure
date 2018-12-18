@@ -38,6 +38,7 @@ steps:
     Contents: |
      **/*.js
      **/*.json
+     .npmrc
      !**/local.settings.json
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
