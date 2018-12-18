@@ -31,6 +31,11 @@ steps:
 #   inputs:
 #     testResultsFiles: 'dist/__tests__/test-results.xml'
 
+- task: npmAuthenticate@0
+  displayName: 'npm authenticate .npmrc'
+  inputs:
+    workingFile: dist/src/.npmrc
+
 - task: CopyFiles@2
   displayName: 'Copy dist files'
   inputs:
